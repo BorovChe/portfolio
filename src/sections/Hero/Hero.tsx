@@ -12,9 +12,9 @@ const Hero = () => {
       className="min-h-[770px] bg-[--main-dark-cl] pt-[160px] text-[--main-white-txt-cl]"
     >
       <Container>
-        <div className="flex gap-10">
+        <div className="flex  gap-10">
           <div className="flex  gap-10">
-            <div className="min-w-[320px] w-[340px] shadow-custom-border bg-gray-800  ">
+            <div className="min-w-[320px] w-[340px] shadow-custom-border bg-inherit  ">
               <Image src={heroPhoto} alt="Profile photo" priority />
             </div>
 
@@ -37,7 +37,10 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <BinaryTree />
+          <div>
+            <h3>Technology Stack</h3>
+            <BinaryTree />
+          </div>
         </div>
       </Container>
     </section>

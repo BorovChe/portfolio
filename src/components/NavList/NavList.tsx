@@ -5,7 +5,7 @@ import { INavLinst } from './NavList.types';
 
 const NavList = () => {
   return (
-    <ul className="flex gap-8 items-center mr-[360px]">
+    <ul className="flex gap-8 basis-72 items-center">
       {navList.map(({ id, title, sectionId }: INavLinst) => (
         <li key={id}>
           <Link
