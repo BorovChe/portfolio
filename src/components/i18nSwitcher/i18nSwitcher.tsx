@@ -1,6 +1,12 @@
-const I18nSwitcher = () => {
+interface II18nSwitcher {
+  textColor: string;
+}
+
+const I18nSwitcher = ({ textColor }: II18nSwitcher) => {
   return (
-    <div className="basis-72 flex items-center justify-end text-[--main-white-txt-cl]">
+    <div
+      className={`basis-[410px] flex items-center justify-end text-[${textColor}]`}
+    >
       <p>UA</p>
       <span>/</span>
       <p>EU</p>

@@ -1,15 +1,15 @@
 import Link from 'next/link';
 import navList from '@/data/navLink.json';
 
-import { INavLinst } from './NavList.types';
+import { INavLinst, INavListProps } from './NavList.types';
 
-const NavList = () => {
+const NavList = ({ textColor }: INavListProps) => {
   return (
     <ul className="flex gap-8 basis-72 items-center">
       {navList.map(({ id, title, sectionId }: INavLinst) => (
         <li key={id}>
           <Link
-            className="text-[--main-white-txt-cl] leading-tight tracking-widest	 uppercase"
+            className={`text-[${textColor}] leading-tight tracking-widest	 uppercase`}
             href={`#${sectionId}`}
           >
             {title}

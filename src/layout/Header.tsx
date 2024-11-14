@@ -1,7 +1,7 @@
 import Container from '@/components/Container';
 import NavList from '@/components/NavList';
 import Logo from '@/components/Logo';
-import I18nSwitcher from '@/components/i18nSwitcher/i18nSwitcher';
+import I18nSwitcher from '@/components/i18nSwitcher';
 
 const Header = () => {
   return (
@@ -11,9 +11,9 @@ const Header = () => {
     >
       <Container>
         <div className="flex justify-between gap-8">
-          <NavList />
-          <Logo />
-          <I18nSwitcher />
+          <NavList textColor="--main-white-txt-cl" />
+          <Logo textColor="--main-white-txt-cl" />
+          <I18nSwitcher textColor="--main-white-txt-cl" />
         </div>
       </Container>
     </header>

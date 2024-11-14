@@ -1,5 +1,6 @@
 [
   { "id": 1, "title": "About", "sectionId": "about" },
   { "id": 2, "title": "Projects", "sectionId": "projects" },
-  { "id": 3, "title": "Contacts", "sectionId": "contacts" }
+  { "id": 3, "title": "Contacts", "sectionId": "contacts" },
+  { "id": 4, "title": "Education", "sectionId": "education" }
 ]
