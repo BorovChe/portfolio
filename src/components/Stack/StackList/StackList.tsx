@@ -1,6 +1,5 @@
+import { IStackListProps } from '@/common/types';
 import StackItem from '../StackItem';
-
-import { IStackListProps } from './StackList.types';
 
 const StackList = ({ stack }: IStackListProps) => {
   return (

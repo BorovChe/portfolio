@@ -2,7 +2,7 @@ import { IDirection } from '@/common/types';
 
 export const directions: IDirection[] = [
   {
-    title: 'Full-Stack',
+    title: 'Common',
     technologies: [
       'TypeScript',
       'JavaScript',

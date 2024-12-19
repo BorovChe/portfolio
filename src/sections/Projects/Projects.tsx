@@ -1,4 +1,4 @@
-import Container from '@/components/Container';
+import Container from '@/components/UI/Container';
 import ProjectList from '@/components/Projects/ProjectList';
 
 const Projects = () => {

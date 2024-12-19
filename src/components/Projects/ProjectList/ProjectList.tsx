@@ -5,7 +5,7 @@ import projects from '@/data/projects';
 
 const ProjectList = () => {
   return (
-    <ul className="flex  flex-col  gap-10 even:items-end">
+    <ul className="flex  flex-col items-center gap-10 even:items-end lg:items-start">
       {projects.map(({ logoSrc, title, type, stack }: IProject) => (
         <ProjectItem
           key={title}

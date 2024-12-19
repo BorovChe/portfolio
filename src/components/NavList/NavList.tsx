@@ -5,18 +5,23 @@ import { INavLinst, INavListProps } from './NavList.types';
 
 const NavList = ({ textColor }: INavListProps) => {
   return (
-    <ul className="flex gap-8 basis-72 items-center">
-      {navList.map(({ id, title, sectionId }: INavLinst) => (
-        <li key={id}>
-          <Link
-            className={`text-[${textColor}] leading-tight tracking-widest	 uppercase`}
-            href={`#${sectionId}`}
+    <nav className="hidden xl:block">
+      <ul className="flex gap-8 items-center">
+        {navList.map(({ id, title, sectionId }: INavLinst) => (
+          <li
+            key={id}
+            className="hover:scale-[1.1] transition-transform duration-[--main-transition]"
           >
-            {title}
-          </Link>
-        </li>
-      ))}
-    </ul>
+            <Link
+              className={`text-[${textColor}] leading-tight tracking-widest	 uppercase lg:text-[14px] `}
+              href={`#${sectionId}`}
+            >
+              {title}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 };
 

@@ -1,4 +1,5 @@
 import {
+  jbaidiukSrc,
   barberSrc,
   filmotekaSrc,
   healthyHubSrc,
@@ -8,6 +9,19 @@ import {
 import { IProject } from '@/common/types';
 
 const projects: IProject[] = [
+  {
+    logoSrc: jbaidiukSrc,
+    title: 'JBaidiuk',
+    type: 'Landing Page',
+    stack: [
+      'Next.js',
+      'Swiper',
+      'Tailwind CSS',
+      'Adaptive Web Design',
+      'Responsive Design',
+      'Webpack',
+    ],
+  },
   {
     logoSrc: staffManagementSrc,
     title: 'Staff Management',
