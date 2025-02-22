@@ -1,6 +1,7 @@
 import Link from 'next/link';
-
-import { ILogoProps } from './logo.types';
+export interface ILogoProps {
+  textColor: string;
+}
 
 const Logo = ({ textColor }: ILogoProps) => {
   return (

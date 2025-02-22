@@ -1,5 +1,6 @@
-import ITitleUnderlineProps from './title-underline.types';
-
+export interface ITitleUnderlineProps {
+  color: string;
+}
 const TitleUnderline = ({ color }: ITitleUnderlineProps) => {
   return (
     <div

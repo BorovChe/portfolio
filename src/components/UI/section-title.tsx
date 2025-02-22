@@ -1,4 +1,10 @@
-import { ISectionTitleProps } from './section-title.types';
+type TextAlign = 'left' | 'center' | 'right';
+
+export interface ISectionTitleProps {
+  children: React.ReactNode;
+  color: string;
+  position: TextAlign;
+}
 
 const SectionTitle = ({ children, color, position }: ISectionTitleProps) => {
   return (
