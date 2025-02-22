@@ -1,7 +1,6 @@
-import { StaticImageData } from 'next/image';
-
 export interface IProject {
-  logoSrc: StaticImageData;
+  id: string;
+  logoSrc: string;
   title: string;
   type: string;
   stack: string[];
@@ -14,7 +13,7 @@ export interface IDirection {
 
 export interface IContact {
   id: string;
-  path: string;
+  icon: string;
   title: string;
   link: string;
   width: number;

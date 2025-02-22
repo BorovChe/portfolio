@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { ILogoProps } from './Logo.types';
+import { ILogoProps } from './logo.types';
 
 const Logo = ({ textColor }: ILogoProps) => {
   return (

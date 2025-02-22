@@ -1,0 +1,89 @@
+[
+  {
+    "id": "j-baidiuk",
+    "logoSrc": "jBaidiuk/jBaidiuk.png",
+    "title": "JBaidiuk",
+    "type": "Landing Page",
+    "stack": [
+      "Next.js",
+      "Swiper",
+      "Tailwind CSS",
+      "Adaptive Web Design",
+      "Responsive Design",
+      "Webpack"
+    ]
+  },
+  {
+    "id": "staff-management",
+    "logoSrc": "staff-management/staff-management.png",
+    "title": "Staff Management",
+    "type": "Full-Stack App",
+    "stack": [
+      "React",
+      "Router",
+      "Redux",
+      "React Hook Form",
+      "Yup",
+      "I18n",
+      "Pagination",
+      "Axios",
+      "ExpressJS",
+      "Node.js",
+      "MongoDB",
+      "Emotion",
+      "Webpack"
+    ]
+  },
+  {
+    "id": "healthy-hub",
+    "logoSrc": "healthyHub/healthyHub.png",
+    "title": "HealthyHub",
+    "type": "Full-Stack App",
+    "stack": [
+      "React",
+      "Router",
+      "Redux",
+      "Formik",
+      "Yup",
+      "Axios",
+      "ExpressJS",
+      "Node.js",
+      "MongoDB",
+      "Styled Component",
+      "Adaptive Web Design",
+      "Responsive Design",
+      "Webpack"
+    ]
+  },
+  {
+    "id": "filmoteka",
+    "logoSrc": "filmoteka/filmoteka.png",
+    "title": "Filmoteka",
+    "type": "Front-End App",
+    "stack": [
+      "HTML",
+      "SCSS",
+      "Type Script",
+      "Pagination",
+      "Firebase",
+      "Axios",
+      "API Integration",
+      "Adaptive Web Design",
+      "Responsive Design",
+      "Parcel"
+    ]
+  },
+  {
+    "id": "barbershop",
+    "logoSrc": "barbershop/barbershop.png",
+    "title": "Barbershop",
+    "type": "Landing Page",
+    "stack": [
+      "HTML",
+      "SCSS",
+      "Java Script",
+      "Adaptive Web Design",
+      "Responsive Design"
+    ]
+  }
+]
