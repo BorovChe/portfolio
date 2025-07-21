@@ -44,6 +44,7 @@ html {
 }
 
 body {
+  overscroll-behavior-y: none;
   scrollbar-width: thin;
   scrollbar-color: #888 #1b1b1b;
 

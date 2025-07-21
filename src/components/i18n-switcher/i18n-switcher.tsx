@@ -1,10 +1,14 @@
 interface II18nSwitcher {
   textColor: string;
+  textSize: string;
 }
 
-const I18nSwitcher = ({ textColor }: II18nSwitcher) => {
+const I18nSwitcher = ({ textColor, textSize }: II18nSwitcher) => {
   return (
-    <div className={`flex items-center text-[${textColor}]`}>
+    <div
+      style={{ fontSize: textSize }}
+      className={`flex items-center text-[${textColor}]`}
+    >
       <p>UA</p>
       <span>/</span>
       <p>EU</p>

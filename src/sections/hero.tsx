@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="about"
-      className="bg-[--main-dark-cl] pt-[106px] pb-[38px]  xl:pt-[122px] xl:pb-[44px]  2xl:pt-[202px] 2xl:pb-[124px] text-[--main-white-txt-cl]"
+      className="bg-[--main-dark-cl] pt-[106px] pb-[38px]  xl:py-[122px] xl:pb-[44px]  2xl:pt-[202px] 2xl:pb-[124px] text-[--main-white-txt-cl]"
     >
       <Container>
         <div className="flex flex-col items-center 2xl:flex-row xl:items-start gap-12 2xl:gap-16">
@@ -17,7 +17,7 @@ const Hero = () => {
                 Roman Borovyk
               </strong>
               <h1 className="text-4xl md:text-[28px] lg:text-4xl font-bold tracking-wider">
-                Full-Stack Developer
+                Frontend Developer
               </h1>
               <p className="xl:max-w-[700px] 2xl:max-w-[514px] mt-auto text-base">
                 Technical Expertise: Proficient in TypeScript, JavaScript, with

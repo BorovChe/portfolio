@@ -8,9 +8,10 @@ export interface INavLinst {
 
 export interface INavListProps {
   textColor: string;
+  textSize: string;
 }
 
-const NavList = ({ textColor }: INavListProps) => {
+const NavList = ({ textColor, textSize }: INavListProps) => {
   return (
     <nav className="hidden xl:block">
       <ul className="flex gap-8 items-center">
@@ -20,7 +21,8 @@ const NavList = ({ textColor }: INavListProps) => {
             className="hover:scale-[1.1] transition-transform duration-[--main-transition]"
           >
             <Link
-              className={`text-[${textColor}] leading-tight tracking-widest	 uppercase lg:text-[14px] `}
+              style={{ fontSize: textSize }}
+              className={`text-[${textColor}] leading-tight tracking-widest	 uppercase lg:text-[${textSize}] `}
               href={`/#${id}`}
             >
               {title}

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import NavList from './nav-list';
+import NavList from '../nav-list';
 import I18nSwitcher from '@/components/i18n-switcher';
 import Logo from '@/components/UI/logo';
 
@@ -16,11 +16,12 @@ const Header = () => {
   //     document.body.classList.remove('overflow-hidden');
   //   }
   // };
+  // bg-[#0c0c0cbf]
 
   return (
     <header
-      className="blur-filter fixed w-full flex items-center min-h-[64px]
-     bg-[#0c0c0cbf] shadow-[0_4px_12px_#191c2666] border-[--header-border-cl-20] border-b-[0.5px] border-solid  z-[999] px-5
+      className="blur-filter absolute top-0 w-full flex items-center min-h-[64px]
+      bg-[--main-dark-cl] shadow-[0_4px_12px_#191c2666] border-[--header-border-cl-20] border-b-[0.5px] border-solid  z-[999] px-5
        sm:px-8"
     >
       <div className="w-full flex justify-between gap-8">
@@ -37,9 +38,9 @@ const Header = () => {
             height={30}
           />
         </button>
-        <NavList textColor="--main-white-txt-cl" />
-        <Logo textColor="--main-white-txt-cl" />
-        <I18nSwitcher textColor="--main-white-txt-cl" />
+        <NavList textColor="--main-white-txt-cl" textSize="14px" />
+        <Logo textColor="--main-white-txt-cl" textSize="18px" />
+        <I18nSwitcher textColor="--main-white-txt-cl" textSize="14px" />
       </div>
     </header>
   );
